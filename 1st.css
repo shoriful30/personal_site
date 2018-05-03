@@ -1,0 +1,283 @@
+*{margin: 0;padding: 0;outline: 0}
+body{font-family: arial;font-size: 18px;line-height: 25px}
+
+.navbar {
+	     position: fixed;
+         width:100%;
+         height: 200px
+         
+
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar li a {
+    display: block;
+    color: #171714;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    color: #38DCC8;
+}
+.background {
+    background: url(image.jpg)no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 647px;
+}
+.d{
+	height: 400px
+}
+.name{
+	height: 400px;
+	width: 1200px;
+	
+	margin: 0 auto;
+	text-shadow: 8px 2px #7DE3DB;
+	
+}
+.name p{
+	color: #fff;
+	font-size: 80px;
+	text-align:center;
+	font-weight: bolder;
+
+}
+.name h1{
+	color: #fff;
+	text-align: center;
+	margin-top: 40px;
+	font-family: cursive;
+}
+.background2{
+	 background: url(bb.jpg)no-repeat;
+    background-size: cover;
+    background-position: center center;
+   
+    width: 1400;
+    height: 647px;
+
+
+
+}
+.backcolor{
+	background: rgba(56,220,200,0.6);
+	 width: 1400px;
+    height: 647px;
+    
+}
+.about{
+	
+    margin-left: 260px;
+	height: 220px;
+	width: 250px;
+	border:10px solid #fff;
+	float: left;
+	
+}
+.about h1{
+	color: #fff;
+	font-weight: bold;
+	padding:3px;
+	margin-left: 2px;
+	margin-top: 2px;
+	
+}
+.summary{
+	height: 300px;
+	width: 400px;
+	
+	float: left;
+	margin-left: 100px;
+	color: #fff;
+	font-size: 16px;
+	padding:4px;
+	
+	
+}
+.summary h4{
+	height: 30px;
+	width: 150px;
+	background-color: #fff;
+	color: #38DCC8;
+	text-align: center;
+	margin-top: 10px
+}
+.summary h4:hover{
+	background-color: #2C8A7C;
+	color: #fff;
+
+}
+.background3{
+	background: url(sh.jpg)no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 800px;
+
+}
+.first{
+     height: 100px;
+     width: 700px;
+     border: 10px solid #fff;
+     text-align: center;
+     margin-left: 280px;
+     background-color: #44ABA0;
+     color: #fff;
+
+}
+.first h1{
+    text-decoration: none;
+	text-align: center;
+	margin-top: 40px;
+
+
+
+}
+.first:hover{
+	color: #fff;
+	background-color:rgba(0,0,0,0.2);
+
+
+}
+.scoend{
+	height: 100px;
+     width: 700px;
+     border: 10px solid #fff;
+     text-align: center;
+     margin-left: 280px;
+     background-color: #44ABA0;
+     color: #fff;
+     margin-top: 90px;
+
+}
+.scoend h1{
+	text-align: center;
+	margin-top: 40px;
+}
+.scoend:hover{
+	color: #fff;
+	background-color:rgba(0,0,0,0.2);
+
+}
+.therd{
+	height: 100px;
+     width: 700px;
+     border: 10px solid #fff;
+     text-align: center;
+     margin-left: 280px;
+     background-color: #44ABA0;
+     color: #fff;
+     margin-top: 90px;
+}
+.therd h1{text-align: center;
+	margin-top: 40px;}
+.therd:hover{
+      color: #fff;
+	background-color:rgba(0,0,0,0.2);
+}
+
+
+
+
+
+
+
+
+
+
+.container {
+  position: relative;
+  width:400px;
+  float: left;
+  padding: 10px;
+  margin-left:10px;
+}
+
+.image {
+  display: block;
+  width: 400px;
+  height: 350px;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  right: 0;
+  background-color: rgba(56,220,200,0.6);
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  width: 100%;
+  left: 0;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+.bb{
+	height: 750px;
+	
+}
+.footer{
+	background-color:#38DCC8;
+	height: 700px;
+	width: 1400px;
+}
+.wor{
+    height: 90px;
+    width: 700px;
+    border: 10px solid #fff;
+    text-align: center;
+    margin-left: 250px
+
+}
+.wor h1{
+	margin-top: 20px;
+	padding: 10px;
+	color: #fff;
+}
+.contact{
+	height: 300px;
+	width: 200px;
+	
+	margin-left: 250px;
+	color: #fff;
+	float: left;
+
+}
+.ta{
+	color: #fff;
+	height: 300px;
+	width: 200px;
+	margin-left: 200px;
+	float: left;
+}
